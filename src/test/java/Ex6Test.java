@@ -8,6 +8,7 @@ public class Ex6Test {
 
     static Ex6 ex6;
 
+
     @BeforeAll
     public static void setUp(){
         ex6 = new Ex6();
