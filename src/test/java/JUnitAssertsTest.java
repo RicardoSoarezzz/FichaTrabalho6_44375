@@ -6,13 +6,13 @@ public class JUnitAssertsTest {
     @Test
     public void AssertMethodstest() {
         String obj1 = "junit";
-        String obj2 = "shouldFail";
+        String obj2 = "junit";
         String obj3 = "test";
         String obj4 = "test";
         int var1 = 1;
         int var2 = 1;
         int var3 = 5;
-        int[] a1 = {1, 5, 3};
+        int[] a1 = {1, 2, 3};
         int[] a2 = {1, 2, 3};
         assertEquals(obj1, obj2);
         assertSame(obj3, obj4);

@@ -31,8 +31,8 @@ public class RectangleAreaAndPerimeterCalculatorTest {
 
     @Test
     public void areaAndPerimeterTest2(){
-        int expectedAreaValue = 6;
-        int expectedPerimeterValue = 10;
+        int expectedAreaValue = 40;
+        int expectedPerimeterValue = 26;
         int base = 5;
         int height = 8;
 
