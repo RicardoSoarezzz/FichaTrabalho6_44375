@@ -16,8 +16,8 @@ public class Ex6Test {
 
     @Test
     public void digitSumTest(){
-        int expectedValue = 6;
-        int actualValue = ex6.digitSum(1212);
+        int expectedValue = 2;
+        int actualValue = ex6.digitSum(2222);
 
         assertEquals(expectedValue,actualValue,"Digit Sum test failed");
     }
